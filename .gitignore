@@ -123,3 +123,5 @@ dmypy.json
 cython_debug/
 .DS_Store
 exercises/.DS_Store
+.DS_Store
+exercises/.DS_Store
