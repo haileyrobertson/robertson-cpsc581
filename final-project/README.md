@@ -32,7 +32,7 @@ The workflow includes:
 3. **Incidence Prediction**  
    A separate regression model predicts log-transformed dengue incidence per 100k population using the same features. Confidence intervals are calculated for predictions in future years.
    
-4. **Visualization**  
+4. **Forecasting**  
    Predicted incidence for 2023 is visualized in a choropleth map.
 
 5. **Interpretability**  
