@@ -32,7 +32,6 @@ src/                          # Scripts and helper functions
 ├──classify_predict_endemicity_status.ipynb  # Main analysis notebook
 ```
 
-
 ## Installation
 At the top of the notebook, there is a line that must first be run to ensure all dependencies are installed:
 `pip install -r requirements.txt` 
