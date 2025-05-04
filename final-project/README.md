@@ -32,7 +32,7 @@ so that its absolute path is
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/data
 ```
 
-6. Prior to starting this project, ensure there is a directory called 'output' within your 'Final project' directory with 'data' and 'figures' subfolders (unzipping the 'output' folder works to create this structure)
+6. Prior to starting this project, create a directory called 'output' within your 'Final project' directory with 'data' and 'figures' subfolders
 ```
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output/data
