@@ -2,8 +2,48 @@
 
 This notebook presents code for classifying and predicting dengue virus (DENV) endemicity status at the national level using machine learning models trained on ecological and socioeconomic predictors.
 
+## Setup:
+
+1. Enable Google Colaboratory as an app on your Google Drive account
+
+2. Create a new Google Colab notebook, this will also create a "Colab Notebooks" directory under "MyDrive" i.e.
+```
+/content/drive/MyDrive/Colab Notebooks
+```
+
+3. Create the following directory structure in your Google Drive
+```
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project
+```
+
+4. Move the classify_predict_endemicity.ipynb and requirements.txt into
+```
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project/src
+```
+so that its absolute path is
+```
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project/src/classify_predict_endemicity.ipynb
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project/src/requirements.txt
+
+```
+
+5. Prior to starting this project, please create a directory called 'data' within your 'Final project' directory with all files from the unzipped 'data' folder
+```
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/data
+```
+
+6. Prior to starting this project, ensure there is a directory called 'output' within your 'Final project' directory with 'data' and 'figures' subfolders (unzipping the 'output' folder works to create this structure)
+```
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output/data
+/content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output/figures
+```
+
+7. Set up GPU runtime by selecting `Runtime` on the top tool bar, then selecting `Change runtime type` in the drop-down menu, selecting `GPU` under Hardware accelerator and clicking `Save`.
+
+
 ## Project structure
-Set up the project structure as follows, unzipping each folder and placing it in the correct location:
+Prior to starting the project, confirm the project structure looks as follows, unzipping each folder and placing it in the correct location:
 ```plaintext
 data/                         # Raw and processed input datasets
 output/                       # Outputs directory
