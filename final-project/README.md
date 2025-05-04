@@ -56,6 +56,8 @@ At the top of the notebook, there is a line that can first be run to ensure all 
 `pip install -r requirements.txt` 
 In Google Colab, all packages are pre-installed except for Country Converter. The import packages cell contains the necessary pip line to install this package as well - this will be faster than using requirements.txt, but it's there if necessary.
 
+The submission on Gradescope also looked terrible in terms of how it uploaded zipped files – if there are issues, you can clone my github repo: https://github.com/haileyrobertson/robertson-cpsc581/tree/main/final-project
+
 ## Running the code
 As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
 NOTE: If you are not using Google Colab, comment out the google.colab import, and uncomment the pip -requirements block directly below
