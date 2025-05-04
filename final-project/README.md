@@ -35,3 +35,6 @@ src/                          # Scripts and helper functions
 ## Installation
 At the top of the notebook, there is a line that must first be run to ensure all dependencies are installed:
 `pip install -r requirements.txt` 
+
+## Running the code
+As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
