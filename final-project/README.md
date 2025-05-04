@@ -24,7 +24,6 @@ so that its absolute path is
 ```
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project/src/classify_predict_endemicity.ipynb
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Final project/src/requirements.txt
-
 ```
 
 5. Prior to starting this project, please create a directory called 'data' within your 'Final project' directory with all files from the unzipped 'data' folder
@@ -38,8 +37,6 @@ so that its absolute path is
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output/data
 /content/drive/MyDrive/Colab Notebooks/CPSC 381-581: Machine Learning/Exercises/output/figures
 ```
-
-7. Set up GPU runtime by selecting `Runtime` on the top tool bar, then selecting `Change runtime type` in the drop-down menu, selecting `GPU` under Hardware accelerator and clicking `Save`.
 
 
 ## Project structure
@@ -61,9 +58,10 @@ In Google Colab, all packages are pre-installed except for Country Converter. Th
 
 ## Running the code
 As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
+NOTE: Data are pulled dynamically from Open Dengue and require an internet connection.
+NOTE: If you are not using Google Colab, comment out the google.colab import, and uncomment the pip -requirements block directly below
 
 ## Workflow
-
 The workflow includes:
 
 1. **Label Creation**  
