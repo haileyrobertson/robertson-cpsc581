@@ -58,7 +58,6 @@ In Google Colab, all packages are pre-installed except for Country Converter. Th
 
 ## Running the code
 As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
-NOTE: Data are pulled dynamically from Open Dengue and require an internet connection.
 NOTE: If you are not using Google Colab, comment out the google.colab import, and uncomment the pip -requirements block directly below
 
 ## Workflow
