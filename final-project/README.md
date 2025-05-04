@@ -2,14 +2,8 @@
 
 This notebook presents code for classifying and predicting dengue virus (DENV) endemicity status at the national level using machine learning models trained on ecological and socioeconomic predictors.
 
-## Installation
-At the top of the notebook, there is a line that must first be run to ensure all dependencies are installed:
-`pip install -r requirements.txt` 
-
-## Running the code
-As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
-
 ## Project structure
+Set up the project structure as follows, unzipping each folder and placing it in the correct location:
 ```plaintext
 data/                         # Raw and processed input datasets
 output/                       # Outputs directory
@@ -17,7 +11,16 @@ output/                       # Outputs directory
 └── figures/                  # Plots and maps (e.g., predicted incidence maps)
 src/                          # Scripts and helper functions
 ├──classify_predict_endemicity_status.ipynb  # Main analysis notebook
+└──requirements.txt           # For installation, if desired
 ```
+
+## Installation
+At the top of the notebook, there is a line that can first be run to ensure all dependencies are installed:
+`pip install -r requirements.txt` 
+In Google Colab, all packages are pre-installed except for Country Converter. The import packages cell contains the necessary pip line to install this package as well, in case the requirements.txt fails on your machine.
+
+## Running the code
+As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
 
 ## Workflow
 
