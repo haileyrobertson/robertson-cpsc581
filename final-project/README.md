@@ -23,12 +23,14 @@ The workflow includes:
 
 
 ## Project structure
-├── data/ # Raw and processed input datasets
-├── output/
-│ ├── data/ # Model outputs, predictions, and intermediate results
-│ └── figures/ # Plots and maps (e.g., predicted incidence maps)
-├── src/ # Scripts and helper functions
-└── classify_predict_endemicity_status.ipynb # Main analysis notebook
+```plaintext
+data/                         # Raw and processed input datasets
+output/                       # Outputs directory
+├── data/                     # Model outputs, predictions, and intermediate results
+└── figures/                  # Plots and maps (e.g., predicted incidence maps)
+src/                          # Scripts and helper functions
+├──classify_predict_endemicity_status.ipynb  # Main analysis notebook
+```
 
 
 ## Installation
