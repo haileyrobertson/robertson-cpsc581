@@ -57,7 +57,7 @@ src/                          # Scripts and helper functions
 ## Installation
 At the top of the notebook, there is a line that can first be run to ensure all dependencies are installed:
 `pip install -r requirements.txt` 
-In Google Colab, all packages are pre-installed except for Country Converter. The import packages cell contains the necessary pip line to install this package as well, in case the requirements.txt fails on your machine.
+In Google Colab, all packages are pre-installed except for Country Converter. The import packages cell contains the necessary pip line to install this package as well - this will be faster than using requirements.txt, but it's there if necessary.
 
 ## Running the code
 As long as you have installed all necessary requirements, the code should run correctly by selecing "Run all". 
